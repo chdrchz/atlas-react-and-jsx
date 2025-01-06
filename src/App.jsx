@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
+import HelpfulResource from "./components/HelpfulResource";
 
 function App() {
   return (
@@ -18,6 +19,11 @@ function App() {
           <li>Easy To Scale</li>
           <li>Reusable Code</li>
         </ul>
+      </Section>
+      <Section title="Helpful resources">
+        <HelpfulResource link="https://www.youtube.com/watch?v=SqcY0GlETPk&t=163s" label="React for beginners" />
+        <HelpfulResource link="https://react.dev/learn" label="React quick start" />
+        <HelpfulResource link="https://dev.to/avinashvagh/react-ecosystem-in-2024-418k" label="React ecosystem" />
       </Section>
     </div>
   );
