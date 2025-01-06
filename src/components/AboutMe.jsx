@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <div className="about-me">
-      <img src="../../public/SavannaD11.JPG" alt="Savanna D11" />
+      <img src="/SavannaD11.JPG" alt="Savanna D11" />
       <p>
         I’m a full-stack software engineer at Atlas School in Tulsa, Oklahoma,
         with over ten years in customer service and three years in management
