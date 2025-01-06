@@ -1,9 +1,10 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Section from "./components/Section";
 import AboutMe from "./components/AboutMe";
 import HelpfulResource from "./components/HelpfulResource";
 
-function App() {
+export default function App() {
   return (
     <div className="app">
       <Header />
@@ -27,8 +28,7 @@ function App() {
         <HelpfulResource link="https://dev.to/avinashvagh/react-ecosystem-in-2024-418k" label="React ecosystem" />
       </Section>
       <AboutMe />
+      <Footer />
     </div>
   );
 }
-
-export default App;
