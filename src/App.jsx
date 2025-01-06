@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
+import AboutMe from "./components/AboutMe";
 import HelpfulResource from "./components/HelpfulResource";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <HelpfulResource link="https://react.dev/learn" label="React quick start" />
         <HelpfulResource link="https://dev.to/avinashvagh/react-ecosystem-in-2024-418k" label="React ecosystem" />
       </Section>
+      <AboutMe />
     </div>
   );
 }
